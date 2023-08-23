@@ -3,8 +3,8 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "Stonkmarket"
-baseURL = "https://stonkmarket.de/"
+title = "Koole Katzen"
+baseURL = "https://katzen.karlcloud.de"
 theme = "FixIt"
 defaultContentLanguage = "de"
 languageCode = "de"
