@@ -16,4 +16,8 @@ relativeURLs = false
 buildDrafts = false
 summaryLength = 150
 # ignore some build errors
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+ignoreErrors = [
+    "error-remote-getjson",
+    "error-missing-instagram-accesstoken",
+    "error-output-taxonomy",
+]
