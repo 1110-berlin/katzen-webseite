@@ -9,16 +9,27 @@
     max-width: 50px;
     height: auto;
   }
+
+  .big-name-span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .custom-post-footer {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
 </style>
 
 {{- $params := .Params | merge .Site.Params.page -}}
 
 <article class="single summary" itemscope itemtype="http://schema.org/Article">
-  <h1 class="single-title" itemprop="name headline">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h1>
   {{- /* Meta */ -}}
   <div class="post-meta">
+    <span class="big-name-span">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </span>
     {{- with .Site.Params.dateFormat | default "2006-01-02" |
     .PublishDate.Format -}} &nbsp;<span
       class="post-publish"
@@ -58,7 +69,6 @@
   </div>
   {{- /* Footer */ -}}
   <div class="post-footer">
-    <a href="{{ .RelPermalink }}">{{ T "single.readMore" }}</a>
     {{- with .Params.tags -}}
     <div class="post-tags">
       {{- dict "Class" "fa-solid fa-tags fa-fw me-1" | partial
@@ -69,9 +79,9 @@
         href='{{ partial "function/escapeurl.html" .RelPermalink }}'
         class="post-tag"
         >{{ .Title }}</a
-      >
-      {{- end -}} {{- end -}}
+      >{{- end -}} {{- end -}}
     </div>
     {{- end -}}
   </div>
+  <hr />
 </article>

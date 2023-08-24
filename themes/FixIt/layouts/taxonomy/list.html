@@ -1,8 +1,10 @@
+
 {{- define "title" -}}
   {{- .Title }} - {{ T .Data.Singular | default .Data.Singular }} - {{ .Site.Title -}}
 {{- end -}}
 
 {{- define "content" -}}
+
   <div class="page archive">
     {{- /* Title */ -}}
     <h2 class="single-title animate__animated animate__pulse animate__faster">

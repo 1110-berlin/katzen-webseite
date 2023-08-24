@@ -47,8 +47,6 @@
     {{- /* Meta */ -}}
     <div class="post-meta">
       <div class="post-meta-line">
-        {{- partial "single/post-author.html" . -}}
-
         {{- $categories := slice -}}
         {{- range .Params.categories -}}
           {{- $category := partialCached "function/path.html" . . | printf "/categories/%v" | $.Site.GetPage -}}
@@ -172,6 +170,15 @@
       </div>
     {{- end -}}
 
+
+      <img src="/{{ $params.katzenname | lower }}/{{ $params.katzenname | lower }}.jpg" width="250" />
+      <img src="/{{ $params.katzenname | lower }}/{{ $params.katzenname | lower }}_2.jpg" width="200" />
+      <img src="/{{ $params.katzenname | lower }}/{{ $params.katzenname | lower }}_3.jpg" width="200" />
+      <br>
+
+
+
+
     {{- /* Content */ -}}
     {{- $content := dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
     {{- if $params.password -}}
@@ -198,6 +205,24 @@
       {{- end -}}
     </div>
 
+
+
+
+
+    {{- if .Params.kontakt -}}
+      {{- if .Params.kontakt.telefon -}}      
+        {{- range $contact := .Params.kontakt.telefon -}}
+          <ul>
+          {{- range $platform, $value := $contact -}}
+            <li><strong>{{ $platform | title }}:</strong> {{ $value | markdownify }}</li>
+          {{- end -}}
+          </ul>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  
+  
+
     {{- with .Site.Params.social.BuyMeaCoffee -}}
     <div>
       <p style="margin-top: 4em;"><strong>Falls dir mein Blog gefällt kannst du mich mit einem Kaffee (oder einer Pizza) unterstützen.</strong></p>  
@@ -206,6 +231,7 @@
       </a>
     </div>
     {{- end -}}
+
 
     {{- /* Footer and Reward */ -}}
     {{- $reward := .Scratch.Get "reward" -}}
@@ -220,4 +246,8 @@
     {{- /* Comment */ -}}
     {{- partial "single/comment.html" . -}}
   </article>
+
+
+
+  
 {{- end -}}

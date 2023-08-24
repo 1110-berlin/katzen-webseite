@@ -29,7 +29,7 @@ identifier = "katzen"
 pre = ""
 post = ""
 name = "😸Katzen"
-url = "/posts/"
+url = "/katzen/"
 title = ""
 weight = 2
 [main.params]

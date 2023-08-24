@@ -113,7 +113,7 @@ showHome = false
 enable = true
 # FixIt 0.2.17 | CHANGED Custom content (HTML format is supported)
 # For advanced use, see parameter `params.customFilePath.footer`
-custom = 'Made with &#128571; in Berlin<br>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="gohugo">Hugo</a> <i class="fa-brands fa-golang"></i> | Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener noreferrer" title="GitHub Pages">GitHub Pages</a> <i class="fa-brands fa-github"></i>'
+custom = '<a href="/impressum">Impressum</a> & <a href="/datenschutz">Datenschutz</a><br><br>Made with &#128571; in Berlin<br>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="gohugo">Hugo</a> <i class="fa-brands fa-golang"></i> | Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener noreferrer" title="GitHub Pages">GitHub Pages</a> <i class="fa-brands fa-github"></i>'
 # FixIt 0.2.0 | NEW whether to show Hugo and theme info
 hugo = false
 # FixIt 0.2.0 | NEW whether to show copyright info
@@ -207,6 +207,11 @@ disclaimer = ""
 enable = true
 # special amount of posts in each home posts page
 paginate = 6
+[home.pinterest]
+enable = true
+user = "ilona_brandt"
+board = "katzen"
+
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
@@ -318,9 +323,9 @@ fraction = true
 # FixIt 0.2.0 | NEW whether to enable the fontawesome extended syntax
 fontawesome = true
 # license info (HTML format is supported)
-license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+license = ''
 # whether to show link to Raw Markdown content of the content
-linkToMarkdown = true
+linkToMarkdown = false
 # FixIt 0.2.4 | NEW whether to show the full text content in RSS
 rssFullText = false
 # FixIt 0.2.13 | NEW Page style ["narrow", "normal", "wide", ...]
@@ -348,7 +353,7 @@ enable = true
 # FixIt 0.2.9 | NEW whether to keep the static table of the contents in front of the post
 keepStatic = false
 # whether to make the table of the contents in the sidebar automatically collapsed
-auto = true
+auto = false
 # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
 position = "right"
 # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
@@ -362,7 +367,7 @@ warning = 180
 closeComment = false
 # FixIt 0.2.16 | CHANGED KaTeX mathematical formulas (https://katex.org)
 [page.math]
-enable = true
+enable = false
 # default inline delimiter is $ ... $ and \( ... \)
 inlineLeftDelimiter = ""
 inlineRightDelimiter = ""
@@ -370,9 +375,9 @@ inlineRightDelimiter = ""
 blockLeftDelimiter = ""
 blockRightDelimiter = ""
 # KaTeX extension copy_tex
-copyTex = true
+copyTex = false
 # KaTeX extension mhchem
-mhchem = true
+mhchem = false
 # FixIt 0.2.0 | NEW Code config
 [page.code]
 # whether to show the copy button of the code block
@@ -421,6 +426,7 @@ mode = "static"
 # FixIt 0.2.0 | CHANGED social share links in post page
 [page.share]
 enable = true
+iconsize = 1.3
 Twitter = true
 Facebook = true
 Linkedin = true

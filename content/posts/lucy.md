@@ -1,5 +1,5 @@
 ---
-title: Justus
+title: Lucy
 subtitle: Verspielt, Kinderfreundlich, Liebenswert
 date: 2023-04-26T15:35:06+02:00
 draft: false
@@ -13,9 +13,9 @@ tags:
   - stubenreins
 categories:
   - katzen
-summary: Justus wurde gefunden und konnte schnell vermittelt werden. Jedoch legte er vermeintlich grundlos von einem Tag auf den nächsten unausgeglichenes Verhalten an den Tag und musste deshalb wieder zurück ins Tierheim. Hier bei uns ist er sichtlich unzufrieden, trotz aller Bemühungen seiner Pfleger\*innen.
+summary: Lucy wurde gefunden und konnte schnell vermittelt werden. Jedoch legte er vermeintlich grundlos von einem Tag auf den nächsten unausgeglichenes Verhalten an den Tag und musste deshalb wieder zurück ins Tierheim. Hier bei uns ist er sichtlich unzufrieden, trotz aller Bemühungen seiner Pfleger\*innen.
 
-katzenname: Justus
+katzenname: Lucy
 katzen-info:
   geschlecht: Männlich
   rasse: EKH
@@ -31,11 +31,11 @@ kontakt:
     - nummer: 0172123455 (zwischen 8:00 und 16 Uhr erreichbar)
 ---
 
-## Wer ist Justus
+## Wer ist Lucy
 
-Justus wurde gefunden und konnte schnell vermittelt werden. Jedoch legte er vermeintlich grundlos von einem Tag auf den nächsten unausgeglichenes Verhalten an den Tag und musste deshalb wieder zurück ins Tierheim. Hier bei uns ist er sichtlich unzufrieden, trotz aller Bemühungen seiner Pfleger\*innen. Auch wenn er ein eigenwilliges Kerlchen ist und nicht hochgenommen werden mag, kommt er – vorausgesetzt, man lässt ihm seinen Freiraum – auch von sich aus an und fordert Streicheleinheiten ein. Er braucht ein Zuhause bei einfühlsamen, katzenerfahrenen Menschen, die ihn verstehen und auf keinen Fall bedrängen.
+Lucy wurde gefunden und konnte schnell vermittelt werden. Jedoch legte er vermeintlich grundlos von einem Tag auf den nächsten unausgeglichenes Verhalten an den Tag und musste deshalb wieder zurück ins Tierheim. Hier bei uns ist er sichtlich unzufrieden, trotz aller Bemühungen seiner Pfleger\*innen. Auch wenn er ein eigenwilliges Kerlchen ist und nicht hochgenommen werden mag, kommt er – vorausgesetzt, man lässt ihm seinen Freiraum – auch von sich aus an und fordert Streicheleinheiten ein. Er braucht ein Zuhause bei einfühlsamen, katzenerfahrenen Menschen, die ihn verstehen und auf keinen Fall bedrängen.
 
-Ein Plätzchen mit der Möglichkeit zum Freigang wäre ideal für Justus. Kinder oder andere Katzen sollten nicht mit im Haushalt leben.
+Ein Plätzchen mit der Möglichkeit zum Freigang wäre ideal für Lucy. Kinder oder andere Katzen sollten nicht mit im Haushalt leben.
 <br><br>
 
 <table>
