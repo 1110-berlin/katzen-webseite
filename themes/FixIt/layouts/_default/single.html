@@ -21,24 +21,7 @@
   "%v%v%v" (substr $base64EncodeContent 0 $saltLen) (substr (sha256
   $params.password) $saltLen) (substr $base64EncodeContent $saltLen) -}} {{- end
   -}}
-  <div
-    class="content"
-    id="content"
-    {{
-    with
-    $params.password
-    }}data-password="{{ md5 $params.password }}"
-    {{
-    end
-    }}
-    {{
-    with
-    $params.password
-    }}data-content="{{ $content }}"
-    {{
-    end
-    }}
-  ></div>
+  <div class="content" id="content">{{ $content }}</div>
   {{- if .Params.specialcatpage -}}
 
   <ul>
